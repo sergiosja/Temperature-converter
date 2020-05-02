@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Temp converter </title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="container">
+        <h1> Convert any temperature! </h1>
+      </div>
+
+      <div id="main">
+        <div class="container">
+          <select id="from">
+            <option value="celsius"> Celsius </option>
+            <option value="fahrenheit"> Fahrenheit </option>
+            <option value="kelvin"> Kelvin </option>
+            <option value="romer"> Rømer </option>
+            <option value="reaumur"> Réamur </option>
+            <option value="newton"> Newton </option>
+            <option value="delisle"> Delisle </option>
+            <option value="rankine"> Rankine </option>
+          </select>
+
+          <input type="text" placeholder="Value" id="inputFromUser">
+          <input onclick="convert()" type="button" value="Convert" id="btn">
+        </div>
+
+        <div class="container">
+          <div id="answer" class="answerClassMain"> </div>
+        </div>
+
+        <div class="container">
+          <div id="answer1" > </div>
+        </div>
+        <div class="container">
+          <div id="answer2"> </div>
+        </div>
+        <div class="container">
+          <div id="answer3"> </div>
+        </div>
+        <div class="container">
+          <div id="answer4"> </div>
+        </div>
+        <div class="container">
+          <div id="answer5"> </div>
+        </div>
+        <div class="container">
+          <div id="answer6"> </div>
+        </div>
+        <div class="container">
+          <div id="answer7"> </div>
+        </div>
+        <div class="container">
+          <div id="answer8"> </div>
+        </div>
+      </div>
+
+    <script type="text/javascript" src="convert.js"> </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  </body>
+</html>

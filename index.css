@@ -1,0 +1,145 @@
+body{
+  background: #f4f4f4;
+  font-family: "Changa one";
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+/* Classes */
+
+.container{
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.answerClassMain{
+  font-size: 20px;
+  font-style: italic;
+  color: #d19145;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.answerClass{
+  font-size: 18px;
+  color: #dea662;
+  margin-bottom: 15px;
+}
+
+/* IDs */
+
+#wrap{
+  width: 50%;
+  color: #f4a950;
+  background: #212933;
+  border: 1px #212933;
+  border-radius: 15px;
+}
+
+#main{
+  padding-top: 5px;
+  width: 100%;
+  background: #161b21;
+  border: 1px #161b21;
+  border-radius: 15px;
+  margin-top: 10px;
+
+  -moz-box-shadow:    inset 0 0 10px #354252;
+  -webkit-box-shadow: inset 0 0 10px #354252;
+  box-shadow:         inset 0 0 10px #354252;
+}
+
+#btn{
+  text-align: center;
+  background: #dea662;
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: #dea662;
+  color: #161b21;
+  margin: 10px;
+  box-shadow: 2px 2px #c48d4b;
+}
+
+#btn:hover{
+  font-size: 25px;
+  background: #c48d4b;
+  box-shadow: 2px 2px #b0844f;
+}
+
+#btn:active{
+  font-size: 25px;
+  background: #b0844f;
+  box-shadow: 2px 2px #82623b;
+}
+
+#inputFromUser{
+  font-size: 24px;
+  font-style: italic;
+  width: 30%;
+  background: #161b21;
+  margin-bottom: 15px;
+  border: #161b21;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #dea662;
+  color: #dea662;
+  margin: 10px;
+}
+
+#from{
+  font-size: 27px;
+  background: #dea662;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: #dea662;
+  color: #161b21;
+  margin: 10px;
+  box-shadow: 2px 2px #c48d4b;
+}
+
+#from:focus, #inputFromUser:focus, #btn:focus{
+  outline: none;
+}
+
+
+/* Optimised for phones */
+
+
+@media screen and (max-width: 1080px) {
+  h1{
+    font-size: 100px;
+  }
+
+  .answerClassMain{
+    font-size: 45px;
+  }
+
+  .answerClass{
+    font-size: 39px;
+  }
+
+  #wrap{
+    width: 95%;
+  }
+
+  #inputFromUser{
+    border-bottom: 3px solid #dea662;
+  }
+
+  #btn, #btn:hover, #btn:active, #inputFromUser, #from{
+    font-size: 54px;
+  }
+
+  .answerClass{
+    margin-bottom: 25px;
+  }
+}
